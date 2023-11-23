@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   #s.source       = { :http => source,
   #                   :sha1 => sha1 }
-  s.source       = { :git => "https://git.xiph.org/liboggz.git",
+  s.source       = { :git => "https://github.com/zhanghaoyu92hou/liboggz.git",
                      :commit => "f49574ed723442f7bf83fb67b991b14c85c724a4"}
 
   s.prepare_command = <<-'CMD'
